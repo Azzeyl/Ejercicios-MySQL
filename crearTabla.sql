@@ -16,3 +16,14 @@ create table persona(
 /*Insertar datos en la tabla*/
 /*Inserta dentro de persona estos valores*/
 insert into persona values(1,'12345678','Camilo',21);
+
+/*Insertar seleccionado los campos*/
+insert into persona(dni,nombre,edad) values ('125787','Jonatan',20);
+
+/*Mostrar todos los datos de la tabla*/
+
+select * from persona;
+
+/*Mostrar algunos datos de la tabla*/
+select nombre from persona;
+
