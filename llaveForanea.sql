@@ -12,6 +12,7 @@ create table mamiferos(
 /*Se indica en el values el valor de fk_leon para realacionar las tablas*/
 /*el decimal es con punto*/
 insert into mamiferos(nombre,altura,descripcion,fk_leon) values ('Terrestre',14.5,'Animal pesado',1);
+/*el id 1 se refiere al id del leon*/
 
 /*tabla con llave foranea*/
 create table leon(
@@ -22,5 +23,5 @@ create table leon(
 )
 
 insert into leon(clase,habitat,alimentacion) values ('leon Africano','Africa','Carne');
-
+/*I need first create a mamifera and after create a leon*/
 /*Un mamifero tiene un leon la llave foranea va en mamifero*/
